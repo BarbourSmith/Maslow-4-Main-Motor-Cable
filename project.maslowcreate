@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "8 Place Connector",
-            "x": 52,
-            "y": 55,
+            "x": 60,
+            "y": 51,
             "uniqueID": 555529,
             "ioValues": [],
             "topLevel": false,
@@ -29,15 +29,24 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 251,
-                    "y": 72,
+                    "x": 249,
+                    "y": 65,
                     "uniqueID": 962645,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 7.75
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 539,
+                    "y": 149,
+                    "uniqueID": 853433,
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
                 },
                 {
                     "atomType": "Output",
@@ -53,6 +62,17 @@
                     "ap2Name": "geometry",
                     "ap1ID": 551311,
                     "ap2ID": 962645
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 962645,
+                    "ap2ID": 853433
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 853433
                 }
             ],
             "fileTypeVersion": 1
@@ -60,12 +80,51 @@
         {
             "atomType": "Molecule",
             "name": "6 Place Connector",
-            "x": 56,
+            "x": 47,
             "y": 139,
             "uniqueID": 674241,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 94,
+                    "y": 158,
+                    "uniqueID": 365018,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 17.3
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 4.1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 325,
+                    "y": 131,
+                    "uniqueID": 996010,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 7.75
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 627,
+                    "y": 154,
+                    "uniqueID": 112143,
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -74,18 +133,70 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 365018,
+                    "ap2ID": 996010
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 996010,
+                    "ap2ID": 112143
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 112143
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
             "atomType": "Molecule",
             "name": "2 Place Connector",
-            "x": 59,
-            "y": 225,
+            "x": 55,
+            "y": 227,
             "uniqueID": 901620,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 132,
+                    "y": 130,
+                    "uniqueID": 537073,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 332,
+                    "y": 109,
+                    "uniqueID": 861807,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -109,15 +220,15 @@
                 {
                     "atomType": "Molecule",
                     "name": "8 Place Connector",
-                    "x": 52,
-                    "y": 55,
+                    "x": 60,
+                    "y": 51,
                     "uniqueID": 555529,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "6 Place Connector",
-                    "x": 56,
+                    "x": 47,
                     "y": 139,
                     "uniqueID": 674241,
                     "ioValues": []
@@ -125,8 +236,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "2 Place Connector",
-                    "x": 59,
-                    "y": 225,
+                    "x": 55,
+                    "y": 227,
                     "uniqueID": 901620,
                     "ioValues": []
                 },
