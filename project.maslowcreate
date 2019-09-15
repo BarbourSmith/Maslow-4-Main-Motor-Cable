@@ -3,12 +3,42 @@
         {
             "atomType": "Molecule",
             "name": "8 Place Connector",
-            "x": 57,
-            "y": 53,
+            "x": 52,
+            "y": 55,
             "uniqueID": 555529,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 87,
+                    "y": 122,
+                    "uniqueID": 551311,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 22.3
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 4.1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 251,
+                    "y": 72,
+                    "uniqueID": 962645,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -17,7 +47,14 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 551311,
+                    "ap2ID": 962645
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -72,8 +109,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "8 Place Connector",
-                    "x": 57,
-                    "y": 53,
+                    "x": 52,
+                    "y": 55,
                     "uniqueID": 555529,
                     "ioValues": []
                 },
