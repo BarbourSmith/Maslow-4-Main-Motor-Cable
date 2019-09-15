@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "8 Place Connector",
-            "x": 60,
-            "y": 51,
+            "x": 48,
+            "y": 39,
             "uniqueID": 555529,
             "ioValues": [],
             "topLevel": false,
@@ -80,8 +80,8 @@
         {
             "atomType": "Molecule",
             "name": "6 Place Connector",
-            "x": 47,
-            "y": 139,
+            "x": 48,
+            "y": 113,
             "uniqueID": 674241,
             "ioValues": [],
             "topLevel": false,
@@ -157,8 +157,8 @@
         {
             "atomType": "Molecule",
             "name": "2 Place Connector",
-            "x": 55,
-            "y": 227,
+            "x": 54,
+            "y": 166,
             "uniqueID": 901620,
             "ioValues": [],
             "topLevel": false,
@@ -166,36 +166,41 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 132,
-                    "y": 130,
+                    "x": 81,
+                    "y": 128,
                     "uniqueID": 537073,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 7.3
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 4.1
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 332,
-                    "y": 109,
+                    "x": 334,
+                    "y": 97,
                     "uniqueID": 861807,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 7.75
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 611,
+                    "y": 116,
+                    "uniqueID": 877442,
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
                 },
                 {
                     "atomType": "Output",
@@ -205,7 +210,25 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 537073,
+                    "ap2ID": 861807
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 861807,
+                    "ap2ID": 877442
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 877442
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -220,52 +243,67 @@
                 {
                     "atomType": "Molecule",
                     "name": "8 Place Connector",
-                    "x": 60,
-                    "y": 51,
+                    "x": 48,
+                    "y": 39,
                     "uniqueID": 555529,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "6 Place Connector",
-                    "x": 47,
-                    "y": 139,
+                    "x": 48,
+                    "y": 113,
                     "uniqueID": 674241,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "2 Place Connector",
-                    "x": 55,
-                    "y": 227,
+                    "x": 54,
+                    "y": 166,
                     "uniqueID": 901620,
                     "ioValues": []
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 394,
-                    "y": 246,
+                    "x": 187,
+                    "y": 257,
                     "uniqueID": 777770,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 4
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 552,
-                    "y": 148,
+                    "x": 356,
+                    "y": 241,
                     "uniqueID": 762386,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 20
                         }
                     ]
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 928,
+                    "y": 232,
+                    "uniqueID": 594187,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Main Motor Cable Harness ",
+                        "numberNeeded": 1,
+                        "costUSD": 2,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -284,8 +322,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 762386,
+                    "ap2ID": 594187
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 762386
+                    "ap1ID": 594187
                 }
             ],
             "fileTypeVersion": 1

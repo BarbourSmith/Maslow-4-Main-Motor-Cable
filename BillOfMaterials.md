@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Main Motor Cable Harness |1|$2.00|www.example.com|
+|Total: |1|$2.00| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $6.00
