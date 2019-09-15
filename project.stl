@@ -419,4 +419,88 @@ vertex 0 -11.15 -2.05
 vertex 0 11.15 -2.05
 endloop
 endfacet
+facet normal -0.4999998256400493 -0.8660255044511798 0
+outer loop
+vertex 15.675 -27.49112 2.05
+vertex 22.3867 -31.36612 -2.05
+vertex 22.3867 -31.36612 2.05
+endloop
+endfacet
+facet normal -0.49999982564004974 -0.8660255044511797 0
+outer loop
+vertex 22.3867 -31.36612 -2.05
+vertex 15.675 -27.49112 2.05
+vertex 15.675 -27.49112 -2.05
+endloop
+endfacet
+facet normal -2.6497947778419088e-17 0 1
+outer loop
+vertex 15.675 -27.49112 2.05
+vertex 31.0367 -16.38388 2.05
+vertex 24.325 -12.50888 2.05
+endloop
+endfacet
+facet normal 2.6497947778419097e-17 0 1
+outer loop
+vertex 31.0367 -16.38388 2.05
+vertex 15.675 -27.49112 2.05
+vertex 22.3867 -31.36612 2.05
+endloop
+endfacet
+facet normal 0.4999998256400494 0.8660255044511795 0
+outer loop
+vertex 31.0367 -16.38388 -2.05
+vertex 24.325 -12.50888 2.05
+vertex 31.0367 -16.38388 2.05
+endloop
+endfacet
+facet normal 0.49999982564004986 0.8660255044511794 0
+outer loop
+vertex 24.325 -12.50888 2.05
+vertex 31.0367 -16.38388 -2.05
+vertex 24.325 -12.50888 -2.05
+endloop
+endfacet
+facet normal -5.2995895556838175e-17 0 -1
+outer loop
+vertex 31.0367 -16.38388 -2.05
+vertex 15.675 -27.49112 -2.05
+vertex 24.325 -12.50888 -2.05
+endloop
+endfacet
+facet normal 0 0 -1
+outer loop
+vertex 15.675 -27.49112 -2.05
+vertex 31.0367 -16.38388 -2.05
+vertex 22.3867 -31.36612 -2.05
+endloop
+endfacet
+facet normal 0.8660254112198316 -0.4999999871215212 0
+outer loop
+vertex 22.3867 -31.36612 -2.05
+vertex 31.0367 -16.38388 2.05
+vertex 22.3867 -31.36612 2.05
+endloop
+endfacet
+facet normal 0.8660254112198313 -0.4999999871215215 0
+outer loop
+vertex 31.0367 -16.38388 2.05
+vertex 22.3867 -31.36612 -2.05
+vertex 31.0367 -16.38388 -2.05
+endloop
+endfacet
+facet normal -0.8660254112198317 0.4999999871215212 0
+outer loop
+vertex 24.325 -12.50888 -2.05
+vertex 15.675 -27.49112 2.05
+vertex 24.325 -12.50888 2.05
+endloop
+endfacet
+facet normal -0.8660254112198315 0.4999999871215215 0
+outer loop
+vertex 15.675 -27.49112 2.05
+vertex 24.325 -12.50888 -2.05
+vertex 15.675 -27.49112 -2.05
+endloop
+endfacet
 endsolid JSxCAD
