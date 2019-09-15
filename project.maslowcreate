@@ -2,6 +2,66 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "8 Place Connector",
+            "x": 57,
+            "y": 53,
+            "uniqueID": 555529,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "6 Place Connector",
+            "x": 56,
+            "y": 139,
+            "uniqueID": 674241,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "2 Place Connector",
+            "x": 59,
+            "y": 225,
+            "uniqueID": 901620,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Maslow 4 Main Motor Cable",
             "x": 0,
             "y": 0,
@@ -10,10 +70,34 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Molecule",
+                    "name": "8 Place Connector",
+                    "x": 57,
+                    "y": 53,
+                    "uniqueID": 555529,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "6 Place Connector",
+                    "x": 56,
+                    "y": 139,
+                    "uniqueID": 674241,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "2 Place Connector",
+                    "x": 59,
+                    "y": 225,
+                    "uniqueID": 901620,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 285,
-                    "y": 134,
+                    "x": 394,
+                    "y": 246,
                     "uniqueID": 777770,
                     "ioValues": [
                         {
